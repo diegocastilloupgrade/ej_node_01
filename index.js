@@ -41,21 +41,21 @@ router.get('/teams', (req, res) => {
   const teams = [
     {
       name: 'Real Madrid',
-      año: 1999,
-      sede: 'Santiago Bernabeu',
-      escudo: 'https://cdn.worldvectorlogo.com/logos/real-madrid-c-f.svg'
+      year: 1999,
+      headquarters: 'Santiago Bernabeu',
+      logo: 'https://cdn.worldvectorlogo.com/logos/real-madrid-c-f.svg'
     },
     {
       name: 'Futbol Club Barcelona',
-      año: 1958,
-      sede: 'Camp Nou',
-      escudo: 'https://cdn.worldvectorlogo.com/logos/fc-barcelona.svg'
+      year: 1958,
+      headquarters: 'Camp Nou',
+      logo: 'https://cdn.worldvectorlogo.com/logos/fc-barcelona.svg'
     },
     {
       name: 'Atletico de madrid',
-      año: 1958,
-      sede: 'Wanda Metropolitano',
-      escudo: 'https://cdn.worldvectorlogo.com/logos/athletic-club-madrid.svg'
+      year: 1958,
+      headquarters: 'Wanda Metropolitano',
+      logo: 'https://cdn.worldvectorlogo.com/logos/athletic-club-madrid.svg'
     },
   ];
   res.send(teams);
